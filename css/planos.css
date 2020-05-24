@@ -1,0 +1,239 @@
+body{
+	background:#000;
+}
+.introducao-interna h1{
+	padding-top: 30px;
+}
+.interna_planos{
+	background: url("../imagem/bg-planosaude.jpg") no-repeat center;
+	background-size: cover;
+}
+
+/*Tipos de Plano*/
+.tipos_planos {
+	padding-top:180px;
+	padding-bottom: 50px;
+	border-top: 3px solid #B8860B;
+}
+.tipos_planos .subtitulo{
+	font-size: 24px;
+}
+.tipos_planos h2{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	position: relative;
+	top: -115px;
+	text-align: center;
+	margin-bottom: -56px;
+}
+
+.tipos_planos h2:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 8px auto;
+}
+.sub
+
+.tipos_img img{
+	margin: 0 auto;
+}
+/*Adesão*/
+.adesao{
+	width: 100%;
+    background: #fff;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.adesao p{
+	color: #000 !important;
+	text-align: center;
+	
+}
+
+.adesao .subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.adesao .subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+}
+.tipo_img{
+  padding-top: 20px;
+}
+.subtitle  {
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	position: relative;
+	top: -115px;
+	text-align: center;
+	margin-bottom: -56px;
+}
+
+.subtitle:after, .subtitle:before{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 8px auto;
+}
+/*Convênios Médicos*/
+.tipos{
+	padding-bottom: 60px;
+	padding-top: 40px;
+	
+
+}
+.planos-saude_lista li{
+	text-align: center;
+}
+.planos-saude_lista li img {
+	margin:0 auto
+}
+.planos-saude_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+.planos-saude_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 2px auto;
+}
+
+.planos-saude_lista li p {
+	padding: 10px 20px 20px 20px;
+}
+.planos-saude_lista h2{
+	color: #fff;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	position: relative;
+	top: -180px;
+	text-align: center;
+	margin-bottom: -56px;
+}
+
+.planos-saude_lista h2:after, .produto_item h2:before{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 8px auto;
+}
+.tipos p{
+	color:#fff;
+
+}
+.quote_clientes {
+	padding: 60px 0;
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+.quote_clientes p{
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.quote_clientes cite {
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+	font-style: normal;
+}
+
+
+
+
+/*Plugin de Slide*/
+
+.rslides, .rslides_portfolio {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li, .rslides_portfolio li{
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child, .rslides_portfolio li:first-child{
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img, .rslides_portfolio img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 0;
+}
+
+.rslides_tabs {
+	text-align: center;
+	margin-top: 14px;
+}
+
+.rslides_tabs li{
+	display: inline;
+	margin: 0 5px;
+}
+
+.rslides_tabs li a{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: #1d1d1d;
+	color: #1d1d1d;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+	background: #B8860B;
+	color: #B8860B;
+}
