@@ -1,0 +1,159 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+/*SOBRE Home*/
+.sobre p{
+	color: #000;
+    text-align: center;
+	width: 348px;
+}
+.sobre:after {
+	right: 66px;
+}
+
+.sobre_lista li {
+	padding: 0 10px;
+}
+
+/*Footer*/
+
+.footer_redes ul li a {
+	border: 3px solid #000;
+	display: block;
+	padding: 6px;
+
+}
+
+.footer_redes ul li a img{
+	width: 26px;
+	height: 26px;
+}
+}
+
+
+
+
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+
+	/*Header*/
+	.header {
+		position: relative;
+		/*padding: 10px;*/
+		background:#000;
+		
+	}
+	
+	.header img {
+		margin: 0 auto 10px auto;
+		
+	}
+	
+	.header_menu {
+		text-align: center;
+		padding: 0px;
+	}
+	
+	.header_menu ul li {
+		margin: 5px;
+	}
+	
+	.header_menu ul li a {
+	    color: #fff;
+		display: block;
+		float: left;
+		
+	}
+
+	
+	.header_menu ul li a:hover {
+		color: #B8860B;
+	}
+	.header_menu ul li a:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #B8860B;
+    /*margin: 14px auto 10px auto;*/
+}
+
+	
+
+	
+	/*Introducao*/
+	
+	.introducao h1 {
+		font-size: 25px;
+		margin-top: 43px;
+	}
+	
+	.introducao {
+		margin-top: 0px;
+		padding-top: 40px;
+		background: url("../imagem/background-03.jpg") no-repeat center;
+		background-size: cover;
+	}
+	
+	/*Introdução Interna*/
+	
+	.introducao-interna {
+		margin-top: 0px;
+}
+
+/*Introdução Interna*/
+
+.introducao-interna {
+	margin-top: 0px;
+	
+}
+.introducao-interna .intro {
+	padding-top: 0px;
+}
+
+/*Call*/
+.call {
+	padding-top: 10px;
+}
+
+/*sobre Home*/
+.sobre:after {
+	display: none;
+}
+
+/*Sobre*/
+.sobre p{
+	color: #000;
+    text-align: center;
+	width: 302px;
+}
+
+.missao_sobre p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0px;
+}
+
+.missao_sobre ul li {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+
+.form {
+	padding-right: 0px;
+}
+
+.orcamento_dados ul {
+	padding-right: 0px;
+}
+
+/*Contato*/
+
+.contato_form {
+	padding-right: 0px;
+	margin-bottom: 40px;
+}
+
+}
