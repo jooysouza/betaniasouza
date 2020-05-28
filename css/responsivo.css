@@ -118,6 +118,7 @@
         padding-right: 0px;
         margin-bottom: 40px;
     }
+    /*menu hambuguer*/
     .header_menu {
         position: absolute;
         top: 204%;
@@ -128,7 +129,7 @@
         transition: .1s;
     }
     .header_imagem img {
-        width: 90px;
+        float: right;
     }
     .header_menu ul li a:after {
         content: "";
@@ -164,7 +165,7 @@
         color: #000;
     }
     .menu-hamburguer {
-        padding: 0px 26px;
+        padding: 28px 26px;
         max-width: 30px;
         cursor: pointer;
         position: relative;
