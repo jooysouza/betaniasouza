@@ -1,112 +1,43 @@
-body{
-	background:#000
+.introducao-interna h1 {
+    padding-top: 30px;
 }
-.introducao-interna h1{
-	padding-top: 30px;
-}
+
 .interna_contato {
-	background: url("../imagem/bg-contato.jpg") no-repeat center;
-	background-size: cover;
+    background: url("../imagem/bg-contato.jpg") no-repeat center;
+    background-size: cover;
 }
+
 
 /*Orçamento*/
 
 .contato {
-	padding: 40px 0;
-	border-top: 3px solid #B8860B;
-
-	
-}
-.contato_form {
-	padding-right: 60px;
+    padding: 40px 0;
+    border-top: 3px solid #B8860B;
 }
 
-.contato_form label{
-	display: block;
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 18px;
-	line-height: 25px;
-	margin-bottom: 4px;
-	color: #fff;
-}
-.contato_form p{
-	color: #fff;
-	font-style: italic;
-	padding-bottom: 20px;
+.contato-img {
+    margin-top: 16px;
+    background: #000;
+    height: 14em;
+    padding-top: 1px;
 }
 
-.contato_form input {
-	display: block;
-	width: 100%;
-	border: 4px solid #B8860B;
-	color: #fff;
-	background: none;
-	padding: 7px 10px;
-	margin-bottom: 10px;
-	outline: none;
-	font-size: 14px;
-	font-family: Georgia, "Times New Roman", serif;
+.contato-img h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
 
-.contato_form textarea {
-	display: block;
-	width: 100%;
-	height: 120px;
-	border: 4px solid #B8860B;
-	color: #fff;
-	background: none;
-	padding: 7px 10px;
-	margin-bottom: 20px;
-	outline: none;
-	font-size: 14px;
-	font-family: Georgia, "Times New Roman", serif;
+.contato-img img {
+    border: 3px solid #B8860B;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
-.contato_form button {
-	padding: 7px 40px;
-	background: none;
+.contato-img .call {
+    text-align: center;
+    clear: both;
 }
-
-.orcamento_dados {
-	color: #fff;
-}
-
-.contato_dados h3{
-	font-size: 18px;
-	line-height: 25px;
-	text-transform: uppercase;
-	color: #B8860B;
-	font-weight: bold;
-}
-
-.contato_dados span {
-	display: block;
-	font-size: 18px;
-	line-height: 30px;
-	font-family: Georgia, "Times New Roman", serif;
-	color: #fff;
-}
-
-.contato_dados span:nth-of-type(even) {
-	margin-bottom: 30px;
-}
-
-.contato_dados ul {
-	margin-top: 10px;
-}
-
-.contato_dados ul li {
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.contato_dados ul li a {
-	border: 3px solid #B8860B;
-	display: block;
-	padding: 10px;
-}
-
-.contato_dados ul li a:hover {
-	border-color: #fff;
-}
-
