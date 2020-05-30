@@ -493,4 +493,10 @@ img {
     height: 0px;
 }
 
+#form-sucesso {
+    color: #31aa39;
+}
 
+#form-erro {
+    color: #f64540;
+}
