@@ -426,6 +426,10 @@ img {
     padding: 20px 0;
 }
 
+.copy a {
+    color: #fff;
+}
+
 
 /*JAVASCRIPT*/
 
