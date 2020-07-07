@@ -5,7 +5,7 @@ body {
 }
 
 p {
-    font-family: arial, "Times New Roman", serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 20px;
 }
@@ -16,14 +16,14 @@ img {
 }
 
 .btn {
-    border: 3px solid #B8860B;
+    border: 3px solid #b8860b;
     padding: 10px 30px;
-    color: #B8860B;
+    color: #b8860b;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
 }
 
 .btn:hover {
@@ -40,7 +40,7 @@ img {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     color: #000;
     text-transform: uppercase;
     text-align: center;
@@ -60,7 +60,7 @@ img {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     color: #000;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -103,18 +103,18 @@ img {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 0;
 }
 
 .header_menu ul li a:hover {
-    color: #FFF;
+    color: #fff;
 }
 
 .header_menu ul li a.menu_ativo {
-    color: #B8860B;
+    color: #b8860b;
 }
 
 
@@ -132,7 +132,7 @@ img {
 
 .introducao h1 {
     font-size: 30px;
-    color: #FFF;
+    color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 30px;
@@ -146,6 +146,7 @@ img {
 }
 
 .quote-externo p {
+    font-family: Georgia, "Times New Roman", serif;
     font-style: italic;
 }
 
@@ -163,7 +164,7 @@ img {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
 }
 
 
@@ -201,16 +202,16 @@ img {
     background: #000;
     padding: 40px 0;
     margin: 0 auto;
-    border-top: 3px solid #B8860B;
+    border-top: 3px solid #b8860b;
 }
 
 .planos_lista li {
-    background: #B8860B;
+    background: #b8860b;
     text-align: center;
 }
 
 .planos_lista li img {
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .planos_lista li h3 {
@@ -218,7 +219,7 @@ img {
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     margin-top: 20px;
 }
 
@@ -287,7 +288,7 @@ img {
 }
 
 .sobre h3 {
-    color: #B8860B;
+    color: #b8860b;
 }
 
 .sobre:after {
@@ -336,9 +337,9 @@ img {
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     margin-top: 20px;
-    color: #B8860B;
+    color: #b8860b;
 }
 
 .sobre_lista li h3:after {
@@ -346,7 +347,7 @@ img {
     display: block;
     width: 60px;
     height: 3px;
-    background: #B8860B;
+    background: #b8860b;
     margin: 6px auto;
 }
 
@@ -371,7 +372,7 @@ img {
 
 .footer {
     width: 100%;
-    background: #B8860B;
+    background: #b8860b;
     color: #000;
     padding: 20px 0;
 }
@@ -381,7 +382,7 @@ img {
     line-height: 25px;
     color: #000;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     font-weight: bold;
 }
 
@@ -396,6 +397,7 @@ img {
 
 .footer_historia {
     padding-right: 40px;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 .footer_contato ul li {
@@ -422,7 +424,7 @@ img {
 .copy {
     width: 100%;
     background: #000;
-    color: #B8860B;
+    color: #b8860b;
     padding: 20px 0;
 }
 
@@ -470,7 +472,7 @@ img {
 }
 
 .js [data-slide-nav] button.active {
-    background: #B8860B;
+    background: #b8860b;
 }
 
 .js [data-anime] {
