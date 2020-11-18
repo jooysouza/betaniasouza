@@ -1,0 +1,43 @@
+.introducao-interna h1 {
+    padding-top: 30px;
+}
+
+.interna_contato {
+    background: url("../imagem/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+/*Orçamento*/
+
+.contato {
+    padding: 40px 0;
+    border-top: 3px solid #B8860B;
+}
+
+.contato-img {
+    margin-top: 16px;
+    background: #000;
+    height: 14em;
+    padding-top: 1px;
+}
+
+.contato-img h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.contato-img img {
+    border: 3px solid #B8860B;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contato-img .call {
+    text-align: center;
+    clear: both;
+}
